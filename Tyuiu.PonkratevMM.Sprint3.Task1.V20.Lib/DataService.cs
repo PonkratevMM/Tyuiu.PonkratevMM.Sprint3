@@ -5,7 +5,7 @@ namespace Tyuiu.PonkratevMM.Sprint3.Task1.V20.Lib
     {
         public double GetSumSeries(int startValue, int stopValue)
         {
-            double sumSeries = 1;
+            double sumSeries = 0;
             while (startValue <= stopValue)
             {
                 sumSeries += Math.Pow(1 / Math.Cos(startValue), 2);

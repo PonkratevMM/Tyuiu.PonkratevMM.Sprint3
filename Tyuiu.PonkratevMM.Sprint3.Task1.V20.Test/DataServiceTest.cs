@@ -13,7 +13,7 @@ namespace Tyuiu.PonkratevMM.Sprint3.Task1.V20.Test
 
             double res = ds.GetSumSeries(startValue, stopValue);
 
-            double wait = 51192.405;
+            double wait = 51191.405;
             Assert.AreEqual(wait, res);
 
         }

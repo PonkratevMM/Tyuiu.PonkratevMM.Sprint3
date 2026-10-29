@@ -8,7 +8,7 @@ namespace Tyuiu.PonkratevMM.Sprint3.Task0.V12.Lib
             double productSeries = 1;
             for (int i = startValue; i <= stopValue; i++)
             {
-                productSeries *= Math.Pow(value, i) + 1.0 / (i + 1.0);
+                productSeries += Math.Pow(value, 2) + 1.0 / (Math.Cos(i));
             }
             return Math.Round(productSeries, 3);
         }
