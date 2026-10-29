@@ -15,7 +15,7 @@ namespace Tyuiu.PonkratevMM.Sprint3.Task0.V12.Test
 
             double res = ds.GetMultiplySeries(value, startValue, stopValue);
 
-            double wait = 15.252;
+            double wait = 7.5;
             Assert.AreEqual(wait, res);
 
 
