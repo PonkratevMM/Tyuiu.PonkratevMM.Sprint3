@@ -5,10 +5,10 @@ namespace Tyuiu.PonkratevMM.Sprint3.Task2.V18.Lib
     {
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
-            double multSeries = 1;
+double multSeries = 1;
             do
             {
-                multSeries += Math.Cos(value) + Math.Pow(startValue / 8, 3);
+                multSeries *= Math.Cos(value) + Math.Pow(startValue / 8.0, 3);
                 startValue++;
             } while (startValue <= stopValue);
             return Math.Round(multSeries, 3);
